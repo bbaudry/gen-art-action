@@ -23,4 +23,4 @@ done
 
 #compose the final ascii art string
 ascii_art="$rand_str><$rev_str"
-echo $ascii_art > fridayart.txt
+echo $ascii_art > friday.art
