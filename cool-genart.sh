@@ -3,8 +3,8 @@
 #in commit-bra, bra stands for bash random ascii (art)
 
 #generate random string of nice ascii characters
-chars=°.[]-{+}*
-for ((i=0;i<4;i++)); do 
+chars=°.[]-{+}*01!:
+for ((i=0;i<7;i++)); do 
 	rand_str="${chars:RANDOM%${#chars}:1}"$rand_str
 done
 
